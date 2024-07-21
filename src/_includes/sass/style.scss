@@ -20,6 +20,9 @@ body {
     font-family: $system-font;
     font-size: 16px;
     line-height: 1.6;
+    background-image: url("/images/yugen-lego.jpeg");
+    background-repeat: repeat-x;
+   background-size: 215px 215px;
 }
 
 img {
@@ -87,16 +90,21 @@ main {
     }
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+    font-family: $header-font;
+    color: #212121;
+}
+
+h2, h3, h4, h5 {
     font-family: $system-font;
     color: #212121;
 }
 
 h1, .h1 {
-    $min-size: 2.75rem;
+    $min-size: 3rem;
     $pref-size: 8vw;
     $max-size: 3.25rem;
-    font-size: clamp(2.75rem, 8vw, 3.25rem);
+    font-size: clamp(4.35rem,8vw,4.75rem);
 }
 
 h2, .h2 {
@@ -108,6 +116,12 @@ h2, .h2 {
 
 #main {
     margin-top: 3rem;
+}
+
+#header-banner {
+//     background-image: url("/images/yugen-lego.jpeg");
+//     background-repeat: repeat-x;
+//    background-size: 175px 175px;
 }
 
 .about-page {

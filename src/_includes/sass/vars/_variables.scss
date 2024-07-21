@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'Tiny5';
+    src: url('../../../images/Tiny5-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 $system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $link-blue-accessible: #2540AD;
 $link-blue-accessible-hover: #1836AF;
-$page-background: #fcfcfc;
+$page-background: #FFD700;
+$header-font: 'Tiny5', sans-serif;

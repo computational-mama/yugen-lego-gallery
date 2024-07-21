@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Tiny5";
+  src: url("../../../images/Tiny5-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
 header .nav-main {
   margin: 1rem auto 0 auto;
   max-width: 1100px;
@@ -16,8 +22,8 @@ header .nav-main .nav-list {
   align-items: center;
   padding-left: 0;
   list-style: none;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+  /* border-top: 1px solid #DA291C; */
+  border-bottom: 1px solid #DA291C;
   width: 100%;
 }
 header .nav-main .nav-list li {
@@ -131,7 +137,7 @@ header .intro .hire-me:hover {
   max-width: 100%;
   height: 500px;
   max-height: 500px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 2px;
   filter: brightness(99%);
   transition: filter 0.5s ease;
@@ -191,7 +197,7 @@ header .intro .hire-me:hover {
   padding: 0;
 }
 .featured-img .showcase-img {
-  object-fit: cover;
+  object-fit: contain;
   /* object-fit: contain; this is best but causes letterboxing" */
   max-width: 100%;
   height: 90vh;
@@ -410,10 +416,13 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #fcfcfc;
+  background: #FFD700;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  background-image: url("/images/yugen-lego.jpeg");
+  background-repeat: repeat-x;
+  background-size: 215px 215px;
 }
 
 img {
@@ -474,13 +483,18 @@ main .gallery-header {
   transform: translateY(0);
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+  font-family: "Tiny5", sans-serif;
+  color: #DA291C;
+}
+
+h2, h3, h4, h5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #212121;
 }
 
 h1, .h1 {
-  font-size: clamp(2.75rem, 8vw, 3.25rem);
+  font-size: clamp(4.35rem, 8vw, 4.75rem);
 }
 
 h2, .h2 {
