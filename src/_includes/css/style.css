@@ -22,8 +22,8 @@ header .nav-main .nav-list {
   align-items: center;
   padding-left: 0;
   list-style: none;
-  /* border-top: 1px solid #DA291C; */
-  border-bottom: 1px solid #DA291C;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   width: 100%;
 }
 header .nav-main .nav-list li {
