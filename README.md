@@ -86,3 +86,4 @@ Feel free to report any issues and contribute to this project by suggesting a ne
 
 - Open an [issue](https://github.com/tannerdolby/11ty-photo-gallery/issues) for any features/modifications you'd like to see! 
 - Have a look at the [contributing guidelines](https://github.com/tannerdolby/11ty-photo-gallery/blob/master/CONTRIBUTING.md) before submitting a PR!
+# yugen-lego-gallery
