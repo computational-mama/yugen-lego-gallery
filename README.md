@@ -1,4 +1,6 @@
-# Eleventy Photo Gallery
+# FORKED FROM HERE: Eleventy Photo Gallery
+
+[THIS IS THE REPO](https://github.com/tannerdolby/eleventy-photo-gallery/)
 
 A starter site for creating your own photo or art gallery using the [Eleventy](https://github.com/11ty/eleventy) static site generator.
 
