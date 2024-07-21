@@ -1,6 +1,7 @@
 <div class="gallery">
   <ul class="image-grid">
     {% for image in gallery %}
+    {% if image.featured == "true" %}
     <li class="image-container">
         <a
           href="/gallery/{{ image.title | slug }}"
@@ -14,6 +15,7 @@
           %}
         </a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>

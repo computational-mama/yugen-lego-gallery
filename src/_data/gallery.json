@@ -4,7 +4,8 @@
         "title": "Stairway",
         "src": "staircase_of_always_1.jpeg",
         "alt": "Terrace outside shop window with green plants and pink tree on night street",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "featured": "true"
     },
     {
         "title": "Stairway 2",
@@ -58,7 +59,8 @@
         "title": "Titan Marshland 4",
         "src": "titan_marsh_land4.jpeg",
         "alt": "Red light streaks across a street intersection at night",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "featured": "true"
     },
     {
         "title": "Titan Marshland 5",
@@ -70,7 +72,8 @@
         "title": "Titan Marshland 6",
         "src": "titan_marsh_land6.jpeg",
         "alt": "Person holding glass mason jar with night sky background",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "featured": "true"
     },
     {
         "title": "Titan Marshland 7",
