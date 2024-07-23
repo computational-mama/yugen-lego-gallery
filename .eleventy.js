@@ -3,9 +3,10 @@ const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
+const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = (eleventyConfig) => {
-
+  
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(eleventyNavigation);
 
@@ -94,6 +95,7 @@ module.exports = (eleventyConfig) => {
       >`;
 
     return `<picture>\n\t${sources}\n\t${img}</picture>`;
+    
   });
 
   return {
